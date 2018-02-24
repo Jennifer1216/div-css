@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="author" content="转角不说再见">
+  <meta name="keywords" content="关键词">
+  <meta name="description" content="hover 只能设置自身和子集元素不能跳槽的哦">
+  <title></title>
+	<style type="text/css">
+	* {
+		margin:0;padding:0;
+	}
+	ul,ol {
+		list-style:none;
+	}
+	a {
+		text-decoration:none;
+	}
+	img {
+		border:none;
+	}
+	#wrap {
+		position:relative;
+		margin:115px auto 0;
+		width:1176px;
+		height:475px;
+		border:1px solid #fff;
+	}
+	.container {
+		margin-top:48px;
+		width:100%;
+		height:300px;
+		background:blue;
+	}
+	.leftsideBar {
+		position:absolute;
+		top:0;
+		left:0;
+		width:220px;
+		height:476px;
+		background:rgba(4,119,192.5);
+	}
+  .menu {
+		width:100%;
+		height:48px;
+		background:#188eee;
+		color:#fff;
+  }
+	.menu img {
+		float:left;
+		margin:14px 10px;
+	}
+	.allLesson {
+		line-height:50px;
+	}
+	ul {
+		width:100%;
+		height:428px;
+		background:#0477c0;
+	}
+	li {
+		padding:15px 0;
+		width:220px;
+		height:41px;
+		border-bottom:1px solid #84b8d8;
+		font-size:14px;
+		color:#84b8d8;
+	}
+	 li div {
+	  position:absolute;
+		top:48px;
+		left:220px;
+		width:966px;
+		height:428px;
+	}
+	.lesson {
+		font-size:18px;
+	}
+	li a{
+		color:#84b8d8;
+	}
+	.lesson a {
+		color:#fff;
+	}
+	.lesson span {
+		float:right;
+		margin-right:10px;
+	  width:20px;
+		height:20px;
+		line-height:20px;
+		text-align:center;
+		border-radius:20px;
+	}
+	.lesson span:hover {
+		background:rgba(0,0,0,.5);
+	}
+	li.six {
+		border:none;
+	}
+	/*鼠标划过li使li下的div变色*/
+	.one:hover div {
+		background:#f9c;
+	}
+  .two:hover div {
+		background:#f6f;
+	}
+	.three:hover div {
+		background:#f9f;
+	}
+	.four:hover div {
+		background:#f0c;
+	}
+	.five:hover div {
+		background:#f69;
+	}
+	.six:hover div {
+		background:#f09;
+	}
+	</style>
+  </head>
+  <body>
+		<div id="wrap">
+			<div class="container">
+				<!--左边导航栏-->
+				<div class="leftsideBar">
+					<!--菜单-->
+					<p class="menu">
+						<img src="images/1.png" width="25px" height="25px" />
+						<span class="allLesson">全部课程</span>
+					</p>
+					<!--课程分类-->
+					<ul>
+						<li class="one">
+							<div></div>
+							<p class="lesson">
+								<a href="#">IT·互联网</a>
+								<span>&gt;</span>
+							</p>
+							<p>
+								<span><a href="#">前端开发</a></span>
+								<span><a href="#">Linux运维</a></span>
+							</p>
+						</li>
+						<li class="two">
+							<div></div>
+							<p class="lesson">
+								<a href="#">设计·创作</a>
+								<span>&gt;</span>
+							</p>
+							<p>
+								<span><a href="#">平面设计</a></span>
+								<span><a href="#">游戏设计</a></span>
+                <span><a href="#">美术设计</a></span>
+                <span><a href="#">CAD</a></span>
+							</p>
+						</li>
+            <li class="three">
+							<div></div>
+							<p class="lesson">
+								<a href="#">语言·留学</a>
+								<span>&gt;</span>
+							</p>
+							<p>
+								<span><a href="#">实用口语</a></span>
+								<span><a href="#">雅思</a></span>
+								<span><a href="#">托福</a></span>
+							</p>
+						</li>
+						<li class="four">
+							<div></div>
+							<p class="lesson">
+								<a href="#">业·考证</a>
+								<span>&gt;</span>
+							</p>
+							<p>
+								<span><a href="#">公务员</a></span>
+								<span><a href="#">教师考试</a></span>
+                <span><a href="#">建造工程</a></span>
+							</p>
+						</li>
+						<li class="five">
+						<div></div>
+							<p class="lesson">
+								<a href="#">升学·考研</a>
+								<span>&gt;</span>
+							</p>
+							<p>
+								<span><a href="#">考研</a></span>
+								<span><a href="#">大学</a></span>
+                <span><a href="#">高中</a></span>
+								<span><a href="#">初中</a></span>
+							</p>
+						</li>
+						<li class="six">
+							<div></div>
+							<p class="lesson">
+								<a href="#">兴趣·生活</a>
+								<span>&gt;</span>
+							</p>
+							<p>
+								<span><a href="#">摄影</a></span>
+								<span><a href="#">乐器</a></span>
+								<span><a href="#">美妆</a></span>
+								<span><a href="#">育儿</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+  </body>
+</html>

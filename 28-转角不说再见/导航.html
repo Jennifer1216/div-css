@@ -1,0 +1,91 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		html,body {
+			background:url("images/bg_vert.jpg");
+		}
+		header {
+			padding-top:1px;
+			height:319px;
+			background:url("images/bg_head.jpg") no-repeat;
+		}
+		ul {
+			margin:50px auto;
+			width:601px;
+			height:45px;
+			/* border-radius:6px; */
+		}
+		ul li {
+			position:relative;
+			float:left;
+			width:148px;
+			height:100%;
+			line-height:50px;
+			text-align:center;
+			border-right:1px solid rgba(9,9,9,.125);
+			background-image:linear-gradient(#fff 50%,#ccc 0);
+		}
+		ul li::after {
+			content:"";
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			width:148px;
+			height:100%;
+			background-image:linear-gradient(to right,rgba(168,168,168,.5),rgba(255,255,255,0),rgba(168,168,168,.5));
+			opacity: 0;
+		}
+		ul li:hover::after {
+			opacity:1;
+		}
+		ul li:first-child {
+			width:40px;
+			height:100%;
+			border-radius:6px 0 0 6px;
+		}
+		ul li:nth-of-type(2) {
+			width:113px;
+		}
+		ul li:last-of-type {
+			border:none;
+			border-radius:0 6px 6px 0;
+		}
+	</style>
+ </head>
+ <body>
+		<header>
+		<nav>
+			<ul>
+				<li><img src="images/home.png" alt=""></li>
+				<li>资讯</li>
+				<li>关于我们</li>
+				<li>服务信息</li>
+				<li>联系我们</li>
+		</ul>
+		</nav>
+		</header>	
+ </body>
+</html>

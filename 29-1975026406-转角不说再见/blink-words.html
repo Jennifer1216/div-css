@@ -1,0 +1,63 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		p {
+			width:180px;
+			margin:20px auto 0;
+			font-size:30px;
+			font-weight:bold;
+			color:#ccccff;
+			-webkit-text-stroke:1px #cc99ff;
+			animation:blink 5s linear infinite;
+		}
+		@keyframes blink {
+			0% {
+				text-shadow:0 0 30px #f99;
+			}
+			25% {
+				text-shadow:0 0 30px #c0c;
+				-webkit-text-fill-color:#cf9;
+				
+			}
+			50% {
+				text-shadow:0 0 30px #f09;
+				-webkit-text-fill-color:transparent;
+			
+			}
+			75% {
+				text-shadow:0 0 30px #00f2ff;
+				-webkit-text-fill-color:hsla(327,43%,47%,0.3);
+			}
+			100% {
+				text-shadow:0 0 30px #80ff33;
+				-webkit-text-fill-color:transparent;
+			}
+		}
+	</style>
+ </head>
+ <body>		
+		<p>转角不说再见</p>
+ </body>
+</html>

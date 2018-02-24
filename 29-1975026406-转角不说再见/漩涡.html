@@ -1,0 +1,48 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		div.one	{
+			width:400px;
+			height:300px;
+			background:repeating-radial-gradient(ellipse 50px 50px at 50% 50%,pink 0%,rgba(0, 242, 255, 0.4) 50%);
+		}
+			div.two	{
+			width:400px;
+			height:300px;
+			background:repeating-radial-gradient(ellipse 50px 50px at 50% 50%,pink 0 ,#fff 20%,skyblue,yellow);
+		}
+		div.three {
+				width:400px;
+			height:300px;
+			background:repeating-radial-gradient(ellipse 50px 50px at 50% 50%,#fff 0,#fff 20%,green 21%,green 40%);
+		}
+	</style>
+ </head>
+ <body>		
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+ </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		.cady {
+			margin:0 auto;
+			width:303px;
+			height:800px;
+			text-align:center;
+		}
+		span {
+			font-size:30px;
+			font-weight:bold;
+			-webkit-text-stroke:1px #ff9966;
+			-webkit-text-fill-color:#ff99ff;
+		}
+		header {
+			width:303px;
+			height:303px;
+			border-radius:50%;
+			background:-webkit-radial-gradient(center,#ff0066 ,#ffff33,#fff,#66ff66 30%,#00ff00 18%,#fff,#3366ff,#cc33cc,#ff0000 53%,#ff66cc 60%);
+			background:-moz-radial-gradient(center,#ff0066 ,#ffff33,#fff,#66ff66 30%,#00ff00 18%,#fff,#3366ff,#cc33cc,#ff0000 53%,#ff66cc 60%)
+			background:-o-radial-gradient(center,#ff0066 ,#ffff33,#fff,#66ff66 30%,#00ff00 18%,#fff,#3366ff,#cc33cc,#ff0000 53%,#ff66cc 60%)
+		}
+		footer {
+			position:relative;
+			margin:0 auto;
+			width:20px;
+			height:250px;
+			background:-webkit-linear-gradient(left,#fff,#993300);
+			background:-moz-linear-gradient(left,#fff,#993300);
+			background:-o-linear-gradient(left,#fff,#993300);
+		}
+		footer::before,footer::after {
+			content:"";
+			display:block;
+			width:0;
+			height:0;
+			border:75px solid transparent;
+		}
+		footer::before {			
+			position:absolute;
+			top:20px;
+			left:-77px;			
+			border-left-color:greenyellow;
+		}
+		footer::after {
+			position:absolute;
+			top:20px;
+			right:-77px;
+			border-right-color:greenyellow;
+		}
+	</style>
+ </head>
+ <body>		
+	<div class="cady">
+		<span>超级棒棒糖</span>
+		<header></header>
+		<footer></footer>
+	</div>
+ </body>
+</html>

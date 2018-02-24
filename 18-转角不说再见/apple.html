@@ -1,0 +1,75 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		body {
+			height:500px;	
+		}
+		div {
+			margin:20px auto;
+			width:650px;
+			height:100%;
+			background:url("images/main.jpg"), no-repeat center;
+			-webkit-mask-image:
+				url("images/apple.png"),
+				url("images/apple.png"),
+				url("images/apple.png"),
+				url("images/apple.png");
+			-webkit-mask-repeat:no-repeat;
+			-webkit-mask-position:center;
+			-webkit-mask-size:20%;
+			animation:myfirst 6s linear forwards;
+		}
+		@keyframes myfirst {
+			5% {				
+				-webkit-mask-position:top left,top right,bottom right,bottom left;
+				-webkit-mask-size:10%,10%,20%,10%;
+			}
+			25% {
+				-webkit-mask-position:top right,bottom right,bottom left,top left;
+				-webkit-mask-size:10%,20%,10%,10%;
+			}
+			45% {
+				-webkit-mask-position:bottom right,bottom left,top left,top right;
+				-webkit-mask-size:20%;10%,10%,10%;
+			}
+			65% {
+				-webkit-mask-position:bottom left,top left,top right,bottom right;
+				-webkit-mask-size:10%;10%,10%,20%;
+			}
+			/* 85% {
+				-webkit-mask-position:top left,top right,bottom right,bottom left;
+				-webkit-mask-size:10%;
+			} */
+			100% {
+				-webkit-mask-position:top,right,bottom,left;
+				-webkit-mask-size:40%,40%,40%,40%;
+			}
+		}
+	</style>
+ </head>
+ <body>		
+		<div></div>
+ </body>
+</html>

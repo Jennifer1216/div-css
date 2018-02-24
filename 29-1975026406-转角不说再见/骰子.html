@@ -1,0 +1,89 @@
+<!doctype html>
+	<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}		
+		ul {
+			position:relative;
+			margin:200px auto;
+			width:400px;
+			height:400px;
+			transform-style:preserve-3d;
+			transform:perspective(800px);
+			animation:trans 5s linear infinite;
+		}
+		 ul li {
+			position:absolute;
+			top:0;
+			left:0;
+			width:400px;
+			height:400px;
+			background-size:cover;
+			font-size:150px;
+			font-weight:bold;
+			color:#fff;
+			line-height:400px;
+			text-align:center;
+			opacity:0.7;
+		}	
+		@keyframes trans {
+			50%{transform:rotate3d(1,1,1,180deg)};
+		}
+		ul li:nth-child(1){
+			transform:translateZ(-200px);
+			z-index:100;
+			background-image:url("images/1.jpg");
+		}
+		ul li:nth-child(2){
+			transform:translateZ(200px);
+			background-image:url("images/2.jpg");
+		}
+		ul li:nth-child(3){
+			transform:translateX(-200px) rotateY(90deg);
+			background-image:url("images/3.jpg");
+		}
+		ul li:nth-child(4){
+			transform:translateX(200px) rotateY(90deg);
+			background-image:url("images/4.jpg");
+		}
+		ul li:nth-child(5){
+			transform:translateY(-200px) rotateX(90deg);
+			background-image:url("images/5.jpg");
+		}
+		ul li:nth-child(6){
+		transform:translateY(200px) rotateX(90deg);
+		background-image:url("images/6.jpg");
+	}
+	</style>
+ </head>
+ <body>		
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+ </body>
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		/* .wrap span:last-of-type{
+			color:blue;
+		} */
+		/* .wrap span:nth-of-type(2) {
+			color:red;
+		}
+		.wrap span:nth-last-child(3) {
+			color:pink;
+		}
+		.wrap mark:empty {
+			display:block;
+			width:40px;
+			height:40px;
+			background:skyblue;
+		} */
+		p {
+			width:300px;
+			height:300px;
+			display:none;
+		}
+		p:target {
+			display:block;
+		}
+		p:first-of-type {
+			background:red;
+		}
+		p:nth-of-type(2) {
+			background:blue;
+		}
+		p:last-of-type {
+			background:pink;
+		}
+		a:link {
+			color:#000;
+		}
+		a:visited {
+			color:#000;
+		}
+		a:hover {
+			color:yellowgreen;
+		}
+		a:active {
+			color:yellow;
+		}
+		a::selection {
+			color:orange;
+			background:green;
+		}
+		a:not(.red) {
+			color:yellowgreen;
+		}
+	</style>
+ </head>
+ <body>		
+		<!-- <div class="wrap">
+			<p>p1</p>
+			<p>p2</p>
+			<span>span1</span>
+			<a href="">a1</a>
+			<span>span2</span>
+			<p>p3</p>
+			<mark></mark>
+			<p>p4</p>
+			<mark></mark>
+		</div> -->
+	  <div>
+		<a href="#p1" class="red">红色</a>
+		<a href="#p2">蓝色</a>
+		<a href="#p3">粉色</a>
+		<p id="p1"></p>
+		<p id="p2"></p>
+		<p id="p3"></p>
+		</div>
+ </body>
+</html>

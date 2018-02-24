@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		body {
+			background:black;
+			perspective:800px;
+		}
+		ul {
+		 margin:auto;
+			width:100px;
+			height:150px;
+			position:relative;
+			top:100px;
+			transform-style:preserve-3d;
+			
+			transform:rotateY(145deg);
+		}
+		ul li {
+			position:absolute;
+			width:100px;
+			height:150px;
+			-webkit-box-reflect:below 0% linear-gradient(rgba(0,0,0,0) 40%,rgba(0,0,0,.5) 100%);
+			box-shadow:0 0 12px #ff3399;
+		}
+		ul li img {
+			width:100px;
+			height:150px;
+		}
+		ul li:nth-child(1) {
+			
+			transform: rotateY(32.72deg) translateZ(-350px);
+		}
+		ul li:nth-child(2) {
+			transform: rotateY(62.44deg) translateZ(-350px);
+		}
+		ul li:nth-child(3) {
+			transform: rotateY(98.16deg) translateZ(-350px);
+		}
+		ul li:nth-child(4) {
+			transform: rotateY(130.88deg) translateZ(-350px);
+		}
+		ul li:nth-child(5) {
+			transform: rotateY(163.6deg) translateZ(-350px);
+		}
+		ul li:nth-child(6) {
+			transform: rotateY(196.32deg) translateZ(-350px);
+		}
+		ul li:nth-child(7) {
+			transform: rotateY(229.04deg) translateZ(-350px);
+		}
+		ul li:nth-child(8) {
+			transform: rotateY(261.76deg) translateZ(-350px);
+		}
+		ul li:nth-child(9) {
+			transform: rotateY(294.48deg) translateZ(-350px);
+		}
+		ul li:nth-child(10) {
+			transform: rotateY(327.2deg) translateZ(-350px);
+		}
+		ul li:nth-child(11) {
+			transform: rotateY(359.92deg) translateZ(-350px);
+		}
+	</style>
+ </head>
+ <body>		
+		<ul>
+			<li><img src="images/1.jpg" alt="" /></li>
+			<li><img src="images/2.jpg" alt="" /></li>
+			<li><img src="images/3.jpg" alt="" /></li>
+			<li><img src="images/4.jpg" alt="" /></li>
+			<li><img src="images/5.jpg" alt="" /></li>
+			<li><img src="images/6.jpg" alt="" /></li>
+			<li><img src="images/7.jpg" alt="" /></li>
+			<li><img src="images/8.jpg" alt="" /></li>
+			<li><img src="images/9.jpg" alt="" /></li>
+			<li><img src="images/10.jpg" alt="" /></li>
+			<li><img src="images/11.jpg" alt="" /></li>
+		</ul>
+ </body>
+</html>

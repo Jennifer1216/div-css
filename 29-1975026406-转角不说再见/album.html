@@ -1,0 +1,123 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		#album {
+			margin:40px auto 0;
+			padding:15px 40px 0; 
+			width:720px;
+			height:285px;
+			background:#c9cabb;
+			border:10px solid #000;
+			box-shadow:10px 10px 20px #000;
+		}
+		li {
+			position:relative;
+			float:left;
+			margin:10px;
+		}
+		li img {
+			width:100px;
+			height:100px;
+		}
+		li .pic {
+			position:absolute;
+			top:15px;
+			left:70px;
+			width:200px;
+			height:200px;
+			visibility:hidden;
+			opacity:0;
+			z-index:10;
+			-webkit-transition:all 1s ease-in-out;
+			-moz-transition:all 1s ease-in-out;
+			-o-transition:all 1s ease-in-out;
+			/* transition-property:all;
+			transition-duration:2s;
+			transition-timing-function:ease-in-out;
+			transition-delay:3s; */
+			transition:all 1s ease-in-out;
+			cursor:pointer;
+		}
+		li:hover .pic {
+			visibility:visible;
+			opacity:1;
+		}
+	</style>
+ </head>
+ <body>		
+		<nav id="album">
+			<ul>
+				<li>
+					<img src="images/imagen1_small.jpg" alt="small-animal"  />
+					<img src="images/imagen1.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen2_small.jpg" alt="small-animal"  />
+					<img src="images/imagen2.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen3_small.jpg" alt="small-animal"  />
+					<img src="images/imagen3.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen4_small.jpg" alt="small-animal"  />
+					<img src="images/imagen4.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen5_small.jpg" alt="small-animal"  />
+					<img src="images/imagen5.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen6_small.jpg" alt="small-animal"  />
+					<img src="images/imagen6.jpg" alt="animal" class="pic"/>					
+				</li>
+					<li>
+					<img src="images/imagen7_small.jpg" alt="small-animal"  />
+					<img src="images/imagen7.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen8_small.jpg" alt="small-animal"  />
+					<img src="images/imagen8.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen9_small.jpg" alt="small-animal"  />
+					<img src="images/imagen9.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen10_small.jpg" alt="small-animal"  />
+					<img src="images/imagen10.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen11_small.jpg" alt="small-animal"  />
+					<img src="images/imagen11.jpg" alt="animal" class="pic"/>					
+				</li>
+				<li>
+					<img src="images/imagen12_small.jpg" alt="small-animal"  />
+					<img src="images/imagen12.jpg" alt="animal" class="pic"/>					
+				</li>
+			</ul>
+		</nav>
+ </body>
+</html>

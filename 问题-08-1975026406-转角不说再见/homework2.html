@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="转角不说再见">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述：伪类+定位练习">
+  <title>作业二</title>
+	<style type="text/css">
+	 * {
+	 margin:0;padding:0;
+	 }
+	 ul,ol {
+	 list-style:none;
+	 }
+	 a {
+	 text-decoration:none;
+	 }
+	 img {
+	 border:none;
+	 }
+   #wrap{
+	 margin:55px 0 0 98px;
+	 width:60px;
+	 border:1px solid #fd6397;
+	 }
+	 .title {
+	 padding:15px;
+	 background:#fd6397;
+	 font:14px/18px "Microsoft yahei","宋体";
+	 color:#fff;
+	 }
+	 /*相同选项合并选择*/
+	 .menu li,.menu li:hover{ 
+	 width:60px;
+	 height:60px;
+	 background:url("images/bg.jpg") no-repeat;
+	 }
+   /*
+	 .menu li:hover{
+	 width:60px;
+	 height:63px;
+	 background:url("images/bg.jpg") no-repeat;
+   }
+	 */
+   .nav1 p,.nav2 p,.nav3 p,.nav4 p {
+	 font:12px/102px "Microsoft yahei","宋体";
+	 color:#666;
+	 text-align:center;
+	 }
+	 #wrap .nav1:hover{
+	 background-position:-88px 0;
+	 }
+   #wrap .nav2{
+	 background-position:-176px -64px;
+	 }
+	 /*设置.nav2 a标签*/
+	 #wrap.nav2{
+	 color:#fff;
+	 }
+	 #wrap .nav3 {
+	 background-position: 0 -125px;
+	 }
+	 #wrap .nav3:hover{
+	 background-position: -88px -125px;
+	 }
+	 #wrap .nav4 {
+	 background-position: 0 -180px;
+	 }
+	 #wrap .nav4:hover {
+	 background-position:  -89px -180px;
+	 }
+	 .nav1:hover p,.nav3:hover p,.nav4:hover p {
+	 color:#fd6397;
+	 }
+	</style>
+ </head>
+ <body>
+  <div id="wrap">
+	 <p class="title">聚美首页</p>
+	 <ul class="menu">
+		<li class="nav1">
+		 <a href="#">
+			<p>每日必看</p>
+		 </a>
+		</li>
+		<li class="nav2">
+		 <a href="#">
+      <p  style="color:#fff">爆款榜</p>
+		 </a>
+		</li>
+		<li class="nav3">
+		 <a href="#">
+      <p>上单新品</p>
+		 </a>
+		</li>
+		<li class="nav4">
+		 <a href="#">
+			<p>品牌团</p>
+		 </a>
+		</li>
+	 </ul>
+	</div>
+ </body>
+</html>

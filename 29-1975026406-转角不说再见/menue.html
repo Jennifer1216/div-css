@@ -1,0 +1,79 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="作者">
+  <meta name="Keywords" content="关键词">
+  <meta name="Description" content="描述">
+  <title></title>
+	<style type="text/css">
+		*	{
+			margin:0;padding:0;
+		}
+		ul,ol {
+			list-style:none;
+		}
+		img {
+			border:none;
+		}
+		a {
+			text-decoration:none;
+		}
+		.clearfix::after {
+			content:"";
+			display:none;
+			clear:both;
+		}
+		nav > ul {
+			margin:0 auto;
+			width:278px;
+			height:28px;
+			background:pink;
+		}
+		li {
+			cursor:pointer;
+		}
+		 .menue > li {
+			position:relative;
+			float:left;
+			padding:6px 34px;
+			color:#fff;
+			font-size:12px;
+			border-right:1px solid #fff;
+		}
+		 .menue > li:last-child {
+			border-right:0;
+		}
+		li ul {
+			position:absolute;
+			top:28px;
+			left:0;
+			width:92px;
+			height:0;
+			line-height:30px;
+			background:#ffcccc;
+			text-align:center;
+			transition:.5s;
+		}
+		li:hover ul {
+			display:block;
+			height:120px;
+		}
+	</style>
+ </head>
+ <body>		
+		<nav>
+			<ul class="menue">
+				<li>首页</li>
+				<li>衣服
+					<ul>
+						<li>夹克</li>
+						<li>衬衫</li>
+						<li>羽绒服</li>
+						<li>大衣</li>
+					</ul>
+				</li>
+				<li>裤子</li>
+			</ul>
+		</nav>
+ </body>
+</html>
