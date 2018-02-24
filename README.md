@@ -22,3 +22,7 @@ overflow:visible;
 - [hover改变内容效果示例2](https://github.com/Jennifer1216/div-css/blob/master/%E9%97%AE%E9%A2%98-08-1975026406-%E8%BD%AC%E8%A7%92%E4%B8%8D%E8%AF%B4%E5%86%8D%E8%A7%81/homework2.html)
 - [display:none/block](https://github.com/Jennifer1216/div-css/blob/master/%E9%97%AE%E9%A2%98-10-1975026406-%E8%BD%AC%E8%A7%92%E4%B8%8D%E8%AF%B4%E5%86%8D%E8%A7%81/homework1.html)
 - [display:inline-block/float和无序列表应用](https://github.com/Jennifer1216/div-css/blob/master/%E9%97%AE%E9%A2%98-10-1975026406-%E8%BD%AC%E8%A7%92%E4%B8%8D%E8%AF%B4%E5%86%8D%E8%A7%81/homework2.html)
+- [background复合属性运用页面头部导航1](https://github.com/Jennifer1216/div-css/blob/master/%E9%97%AE%E9%A2%98-11-1975026406-%E8%BD%AC%E8%A7%92%E4%B8%8D%E8%AF%B4%E5%86%8D%E8%A7%81/homework1.html)
+- [background复合属性运用页面头部导航2](https://github.com/Jennifer1216/div-css/blob/master/%E9%97%AE%E9%A2%98-11-1975026406-%E8%BD%AC%E8%A7%92%E4%B8%8D%E8%AF%B4%E5%86%8D%E8%A7%81/homework2.html)
+- [腾讯课堂课程分类界面](https://github.com/Jennifer1216/div-css/blob/master/12-1975026406-%E8%BD%AC%E8%A7%92%E4%B8%8D%E8%AF%B4%E5%86%8D%E8%A7%81/homework.html)
+  - 当时遇到问题不能hover,询问才知道，hover 只能设置**自身**和**子集元素**不能跳槽的哦
