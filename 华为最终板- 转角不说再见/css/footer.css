@@ -1,0 +1,187 @@
+@charset "utf-8";
+/*标语，口号*/
+#footer .slogn {
+	padding: 45px 0;
+	width: 100%;
+	height: 50px;
+}
+.slogn ul {
+	margin: 0 auto;
+	width: 1160px;
+	height: 47px;
+}
+.slogn ul li {
+	float: left;
+	margin-left: 80px;
+}
+.slogn ul li:first-child {
+	margin: 0;
+}
+.slogn ul li i {
+	display: inline-block;
+	width: 47px;
+	height: 47px;
+	background: url("../images/icon1.png") 0 0;
+	vertical-align: middle;
+}
+.slogn ul li:first-child i {
+	background-position: 0 0;
+}
+.slogn ul li:nth-child(2) i {
+	background-position: -93px 0;
+}
+.slogn ul li:nth-child(3) i {
+	background-position: -140px 0;
+}
+.slogn ul li:last-child i {
+	background-position: -47px 0;
+}
+.slogn ul li span {
+	margin-left: 15px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+/*页脚中部*/
+.footer-md {
+	padding: 30px 0 17px;
+	width: 100%;
+	height: 164px;
+	background:#f0f0f0;
+	border-top:1px solid #e8e8e8;
+}
+.footer-md ul {
+	margin: 0 auto;
+	width: 1148px;
+	height: 162px;
+}
+.footer-md li {
+	position: relative;
+	float: left;
+	margin-left: 87px;
+	font-size: 14px;
+}
+.footer-md li:first-child {
+	margin-left: 0;
+}
+.footer-md .line {
+	width: 25px;
+	height: 3px;
+	background: #666;
+}
+.footer-md .title {
+	margin: 12px 0 8px;
+	font-size: 14px;
+}
+.footer-md li p {
+	font-size: 12px;
+	line-height: 24px;
+}
+.footer-md .sbtn span {
+	display: inline-block;
+	width:14px;
+	height:14px;
+	color:#fff;
+	text-align:center;
+	line-height:12px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.sbtn .sbtn-left {
+	background:#b3b3b3;	
+}
+.sbtn .sbtn-right {
+	background: #ccc;
+}
+.footer-md li .sbtn {
+	position: absolute;
+	top:15px;
+	right:-6px;
+}
+.footer-md li a {
+	color: #666;
+}
+.footer-md li a:hover {
+	color:#CA151D;
+}
+.footer-md li .telphone {
+	font-size: 20px;
+}
+/*客服中心*/
+.cus-ser {
+	margin-top: 10px;
+	width: 85px;
+	height: 23px;
+	padding: 4px 25px;
+	border: 1px solid #666;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.cus-ser i {
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	background: url("../images/icon2.png") -303px 0;
+	vertical-align: middle;
+}
+.cus-ser span {
+	font-size: 14px;
+	color: #900;
+	vertical-align: middle;
+}
+/*页脚尾部*/
+.footer-bt {
+	padding: 30px 0 36px;
+	width: 100%;
+	height: 54px;
+	background:#e6e6e6;
+}
+/*页脚尾部内容可视区域*/
+.footer-content {
+	margin: 0 auto;
+	width: 1200px;
+	height: 61px;
+}
+/*页脚 logo*/
+.flogo {
+	float: left;
+	width: 79px;
+	height: 16px;
+}
+.flogo img {
+	margin: 18px 0;
+}
+/*页脚底部内容*/
+.footer-bt .footernav {
+	float: left;
+	margin-left: 42px;
+	width: 645px;
+	height: 50px;
+	color:#a4a4a4;
+	font-size:12px;
+}
+.footer-content p a {
+	color: #a4a4a4;
+}
+.footer-content p a:hover {
+	color:#CA141D;
+}
+mark {
+	display: inline-block;
+	width: 527px;
+	background: none;
+	color:#a4a4a4;
+}
+.footer-content span {
+	margin-left: 5px;
+}
+/*法律维护 个人保障*/
+.law {
+	float: right;
+	padding: 18px 0;
+	width: 295px;
+	height: 25px;
+}
+.law img {
+	width: 70px;
+	height: 24px;
+}

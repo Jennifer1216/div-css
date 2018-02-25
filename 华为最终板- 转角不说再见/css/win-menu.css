@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*窗口导航*/
+.win-rnav {
+	position: fixed;
+	bottom: 50px;
+	right: 0;
+	font-size: 12px;
+}
+.win-rnav li {
+	padding-bottom: 30px;
+	transition: all .3s;
+	/*每隔0.5s转动*/
+}
+.win .win-nav li:last-child {
+	padding-bottom: 0;
+}
+/*鼠标划过窗口导航每个选项时候 向左偏移8px*/
+.win-rnav li:hover {
+	transform: translateX(-10px);
+}
+.win-rnav li a {
+	color: #666;
+}
+.win-rnav li a:hover {
+	color: #CA141D;
+}
+/*窗口底部菜单*/
+.win-bmenue {
+	position:fixed;
+	bottom:30px;
+	right:10px;
+}
+.win-bmenue li {
+	float:right;
+	margin-right:8px;
+}
+.win-bmenue li:first-child {
+	margin-right: 0;
+}
+.win-bmenue li ul {
+	display: none;
+}
+.win-bmenue:hover.win-bmenue li ul,.win-bmenue:hover a:after {
+	display:block;
+}
+.win-bmenue a:hover {
+	background: rgba(0,0,0,.7);
+}
+.win-bmenue a {
+	display:block;
+	width:40px;
+	height:40px;
+	background:#666;
+	line-height:48px;
+	text-align: center;
+	border-radius: 50%;
+}
+.win-bmenue i {
+	display: inline-block;
+	width:18px;
+	height:18px;
+	background:url("../images/icon2.png") no-repeat;
+}
+.win-bmenue a:after {
+	content:"" ;
+	display:block;
+	width:40px;
+	height:14px;
+	background:url("../images/icon10.png");
+	display:none;
+}
+.win-bmenue .one i {
+	width:18px;
+	height:18px;
+	background-position:-150px 0;
+}
+.win-bmenue .two:after {
+	background-position:-40px 0;
+}
+.win-bmenue .two i {
+	width:15px;
+	height:17px;
+	background-position:-135px 0;
+}
+.win-bmenue .three:after {
+	background-position: -80px 0;
+}
+.win-bmenue .three i {
+	width:15px;
+	height:18px;
+	background-position: -120px 0;
+}
