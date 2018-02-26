@@ -1830,23 +1830,24 @@
       oInput.onblur = function(){
         op.style.display = "block";//失去焦点时，使.form-menue出现
       };
-      var aImgArr = document.querySelectorAll(".menue-bg ul li");
-      var aBtnArr = document.querySelectorAll(".menue-bg p span");
+      var aImgArr = document.querySelectorAll(".pictrans li");
+      var aBtnArr = document.querySelectorAll(".menue-bg  p span");
       var index = 0;
       var timer = null;
       for(var i=0;i<aBtnArr.length;i++){//for循环 只有（）里面的条件成立才会执行{}里面内容；
         aBtnArr[i].index = i;//自定义属性；索引
         aBtnArr[i].onclick=function(){
-            clearInterval(timer);
-			aImgArr[index].className = "";
+                clearInterval(timer);
+	        aImgArr[index].className = "";
           	aBtnArr[index].className = "";
           	index= this.index;
-			aBtnArr[index].className = "on";
-			aImgArr[index].className = "on";
+		aBtnArr[index].className = "on";
+		aImgArr[index].className = "on";
         };
       }
 			function autoPlay() {
 				aImgArr[index].className = "";
+                                aBtnArr[index].className = "";
 				index++;
 				if(index > aImgArr.length - 1){
 				    index = 0;

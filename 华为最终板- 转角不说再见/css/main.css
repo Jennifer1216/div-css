@@ -1,9 +1,8 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /*页面主体菜单栏目*/
 	.menue {
 		width:100%;
 		height:495px;
-		background:pink;
 	}
 	.menue-top {
 		width:100%;
@@ -58,16 +57,12 @@
 		height:450px;
 		z-index:20;
 	}
+	.menue-bg .bg-dot span.on {
+		background:#fff;
+	}
 	.pictrans li {
 		display:none;
 		position:absolute;
-		/*top:0;
-		left:0;
-		float:left;*/
-		width:100%;
-		height:100%;
-		background-position:50% center;
-		/*animation:bgTrans 12s infinite;*/
 	}
 	.pictrans li.on {
 		display: block;
@@ -102,11 +97,7 @@
 		width:12px;
 		height:12px;
 		border-radius:50%;
-		border:1px solid #fff;
-		box-shadow:0 0 8px purple inset; 
-	}
-	.menue-bg span:hover {
-		background:#fff;
+		background:gray;
 	}
 	.menue-bg span:last-child {
 		margin:0;
